@@ -17,7 +17,10 @@ def get_hit_count():
             if retries == 0:
                 raise exc
             retries -= 1
-            time.sleep(0.5)
+            time.sleep(0.5);
+
+def Calc(inv = 1,cost=1):
+    return cost;
 
 
 @app.route('/')
